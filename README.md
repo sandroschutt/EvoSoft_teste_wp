@@ -82,11 +82,3 @@ A Storefront child theme designed for small WooCommerce stores / boutiques. Bout
 <h4>MP pagamento</h4>
 
 [![pagamento-boleto-mp.png](https://i.postimg.cc/QMZ5tpmY/pagamento-boleto-mp.png)](https://postimg.cc/tsD7vnLF)
-
-<h4>Mail client</h4>
-
-[![email-site-regular-order.png](https://i.postimg.cc/Z5dp4f8y/email-site-regular-order.png)](https://postimg.cc/4YXm1QFJ)
-
-<h4>Mail vendor</h4>
-
-[![vendor-order-recieved.png](https://i.postimg.cc/T1s5Xmh9/vendor-order-recieved.png)](https://postimg.cc/wRhjX1Xy)
