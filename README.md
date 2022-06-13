@@ -2,7 +2,7 @@
 Teste para a vaga de estágio em desenvolvimento Wordpress da Evolution Software
 
 
-Para rodar o site, basta colar a pasta 'Wordpress' no diretório 'htdocs' do seu Xampp (Windows) ou Lampp (Linux).
+Para rodar o site, basta colar a pasta 'Wordpress' no diretório 'htdocs' do seu Xampp (Windows) ou Lampp (Linux). Após realizado o processo, passar pela configuração básica para ter acesso ao wp-admin.
 
 <br>
 
