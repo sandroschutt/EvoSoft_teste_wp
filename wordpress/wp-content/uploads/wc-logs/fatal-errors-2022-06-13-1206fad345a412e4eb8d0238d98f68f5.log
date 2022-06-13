@@ -1,0 +1,110 @@
+2022-06-13T02:38:03+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/themes in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 31
+
+2022-06-13T02:38:55+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/themes in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 31
+
+2022-06-13T02:40:16+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/themes in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 31
+
+2022-06-13T02:40:34+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(56): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::order_confirmation('', '', 'pagseguro_order...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_orde...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_orde...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_orde...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_orde...')
+#7 /opt/lampp/htdocs/wo in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php on line 5
+
+2022-06-13T02:43:45+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(56): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::order_confirmation('', '', 'pagseguro_order...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_orde...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_orde...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_orde...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_orde...')
+#7 /opt/lampp/htdocs/wo in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php on line 5
+
+2022-06-13T03:01:13+00:00 CRITICAL Uncaught Error: Call to a member function getCode() on null in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:40
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/theme in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 40
+
+2022-06-13T03:01:35+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(56): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::order_confirmation('', '', 'pagseguro_order...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_orde...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_orde...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_orde...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_orde...')
+#7 /opt/lampp/htdocs/wo in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php on line 5
+
+2022-06-13T03:29:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/themes in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 31
+
+2022-06-13T03:37:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_chec...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_chec...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/themes in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/checkout.php on line 31
+
+2022-06-13T03:38:00+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/classes/class-wc-pagseguro-shortcodes.php(56): include()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(356): WC_PagSeguro_Shortcodes::order_confirmation('', '', 'pagseguro_order...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_orde...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(307): do_shortcode('[pagseguro_orde...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(191): WP_Hook->apply_filters('[pagseguro_orde...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(253): apply_filters('the_content', '[pagseguro_orde...')
+#7 /opt/lampp/htdocs/wo in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-pagseguro-oficial/template/order-received.php on line 5
+

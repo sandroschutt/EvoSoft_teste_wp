@@ -1,0 +1,2107 @@
+06-13-2022 @ 14:16:09 - [process_payment]: customer being redirected to Mercado Pago.
+06-13-2022 @ 14:16:09 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-274",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 199,
+            "title": "Ray Ban Wayfarer x 1",
+            "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+            "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 0,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+            "description": "Shipping service used by the store.",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 17.21000000000000085265128291212022304534912109375
+        }
+    ],
+    "payer": {
+        "name": "SANDRO",
+        "surname": "DE ALMEIDA",
+        "email": "sandroschutt@outlook.com",
+        "phone": {
+            "number": "(15) 99817-7365"
+        },
+        "address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 \/ Capão Bonito SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL",
+        "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_lYF9aJEHMGAgL&order_id=274&redirect&_wpnonce=eb6b1a7a21",
+        "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+            "apartment": "Bloco 4 Apt 476",
+            "city_name": "Capão Bonito",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "141822629",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+            "city_name": "Capão Bonito",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "sandro.schiitt@gmail.com",
+            "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-13-2022 @ 14:16:10 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_lYF9aJEHMGAgL&order_id=274&redirect&_wpnonce=eb6b1a7a21",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:16:10.283-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-274",
+        "id": "141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 17.21000000000000085265128291212022304534912109375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Capão Bonito",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+                "zip_code": "18305-005"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandro.schiitt@gmail.com",
+                "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340  Capão Bonito SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "SANDRO",
+            "surname": "DE ALMEIDA",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Capão Bonito",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:16:10 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_lYF9aJEHMGAgL&order_id=274&redirect&_wpnonce=eb6b1a7a21",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/274\/?key=wc_order_lYF9aJEHMGAgL"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:16:10.283-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-274",
+        "id": "141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 17.21000000000000085265128291212022304534912109375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Capão Bonito",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+                "zip_code": "18305-005"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandro.schiitt@gmail.com",
+                "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340  Capão Bonito SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "SANDRO",
+            "surname": "DE ALMEIDA",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-495dee46-e6d5-4832-ad2a-95fd698e56d1",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Capão Bonito",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:17:13 - [process_payment]: customer being redirected to Mercado Pago.
+06-13-2022 @ 14:17:13 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-275",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 199,
+            "title": "Ray Ban Wayfarer x 1",
+            "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+            "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 0,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+            "description": "Shipping service used by the store.",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 10.6099999999999994315658113919198513031005859375
+        }
+    ],
+    "payer": {
+        "name": "Sandro",
+        "surname": "Junior",
+        "email": "sandroschutt@outlook.com",
+        "phone": {
+            "number": "(15) 99817-7365"
+        },
+        "address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103 \/ Itapetininga SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T",
+        "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_OFmhCGw6OS73T&order_id=275&redirect&_wpnonce=22de73ce13",
+        "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103 Bloco 4 Apt 476 Itapetininga SP BR",
+            "apartment": "Bloco 4 Apt 476",
+            "city_name": "Itapetininga",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "141822629",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103",
+            "city_name": "Itapetininga",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "sandroschutt@outlook.com",
+            "user_registration_date": "2022-06-13T02:58:38.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-13-2022 @ 14:17:14 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_OFmhCGw6OS73T&order_id=275&redirect&_wpnonce=22de73ce13",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:17:14.540-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-275",
+        "id": "141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandroschutt@outlook.com",
+                "user_registration_date": "2022-06-13T02:58:38.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Junior",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103 Bloco 4 Apt 476 Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:17:14 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_OFmhCGw6OS73T&order_id=275&redirect&_wpnonce=22de73ce13",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/275\/?key=wc_order_OFmhCGw6OS73T"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:17:14.540-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-275",
+        "id": "141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandroschutt@outlook.com",
+                "user_registration_date": "2022-06-13T02:58:38.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Junior",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-f7309a54-9000-4b87-b03b-623f95fd5443",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103 Bloco 4 Apt 476 Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:23:54 - [process_payment]: customer being redirected to Mercado Pago.
+06-13-2022 @ 14:23:54 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-280",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 199,
+            "title": "Ray Ban Wayfarer x 1",
+            "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+            "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 0,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+            "description": "Shipping service used by the store.",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 10.6099999999999994315658113919198513031005859375
+        }
+    ],
+    "payer": {
+        "name": "Sandro",
+        "surname": "Denovo",
+        "email": "schuttsandro@outlook.com",
+        "phone": {
+            "number": "(15) 99817-7365"
+        },
+        "address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103 \/ Itapetininga SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916",
+        "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_BCdFlh1aca916&order_id=280&redirect&_wpnonce=6b8b24abeb",
+        "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+            "apartment": "",
+            "city_name": "Itapetininga",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "141822629",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103",
+            "city_name": "Itapetininga",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "schuttsandro@outlook.com",
+            "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-13-2022 @ 14:23:55 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_BCdFlh1aca916&order_id=280&redirect&_wpnonce=6b8b24abeb",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:23:55.208-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-280",
+        "id": "141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "schuttsandro@outlook.com",
+                "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "schuttsandro@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Denovo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:23:55 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_BCdFlh1aca916&order_id=280&redirect&_wpnonce=6b8b24abeb",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/280\/?key=wc_order_BCdFlh1aca916"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:23:55.208-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-280",
+        "id": "141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "schuttsandro@outlook.com",
+                "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "schuttsandro@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Denovo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-005081bf-d5fc-4795-b6bf-0d4db4ca65a0",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:34:39 - [process_payment]: customer being redirected to Mercado Pago.
+06-13-2022 @ 14:34:39 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-281",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 199,
+            "title": "Ray Ban Wayfarer x 1",
+            "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+            "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 0,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+            "description": "Shipping service used by the store.",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 17.21000000000000085265128291212022304534912109375
+        }
+    ],
+    "payer": {
+        "name": "SANDRO",
+        "surname": "DE ALMEIDA",
+        "email": "sandroschutt@outlook.com",
+        "phone": {
+            "number": "(15) 99817-7365"
+        },
+        "address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 \/ Capão Bonito SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ",
+        "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_SFjFkXDkTzOwJ&order_id=281&redirect&_wpnonce=2b58ebecf2",
+        "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+            "apartment": "Bloco 4 Apt 476",
+            "city_name": "Capão Bonito",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "141822629",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "18305-005",
+            "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+            "city_name": "Capão Bonito",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "sandro.schiitt@gmail.com",
+            "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-13-2022 @ 14:34:40 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_SFjFkXDkTzOwJ&order_id=281&redirect&_wpnonce=2b58ebecf2",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:34:40.159-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-281",
+        "id": "141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 17.21000000000000085265128291212022304534912109375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Capão Bonito",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+                "zip_code": "18305-005"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandro.schiitt@gmail.com",
+                "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340  Capão Bonito SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "SANDRO",
+            "surname": "DE ALMEIDA",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Capão Bonito",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:34:40 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_SFjFkXDkTzOwJ&order_id=281&redirect&_wpnonce=2b58ebecf2",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/281\/?key=wc_order_SFjFkXDkTzOwJ"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:34:40.159-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-281",
+        "id": "141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Os-Ray-Ban-Original-Wayfarer-Classics-sao-o-estilo-mais-reconhecido-na-historia-dos-oculos-de-sol.-Desde-o-seu-lancamento-em-1952-os-Wayfarer-Classics-ganharam-fama-entre-as-celebridades-musicos-artistas-e-aqueles-co",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/wayfarer.jpeg",
+                "title": "Ray Ban Wayfarer x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Pac (Melhor Envio) (5 a 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 17.21000000000000085265128291212022304534912109375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Capão Bonito",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340",
+                "zip_code": "18305-005"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "sandro.schiitt@gmail.com",
+                "user_registration_date": "2022-06-09T00:53:32.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340  Capão Bonito SP BR",
+                "street_number": null
+            },
+            "email": "sandroschutt@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "SANDRO",
+            "surname": "DE ALMEIDA",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-8c197674-61ff-4b85-8bf3-9aa241a9c504",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18305-005",
+                "street_name": "Rua Dr Tadeu Zaglobinski Venturelli, 340 Bloco 4 Apt 476 Capão Bonito SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Bloco 4 Apt 476",
+                "city_name": "Capão Bonito",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:39:04 - [process_payment]: customer being redirected to Mercado Pago.
+06-13-2022 @ 14:39:04 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-288",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 217,
+            "title": "Ray-Ban Aviator Classic x 1",
+            "description": "p-Atualmente-um-dos-modelos-de-oculos-de-sol-mais-iconicos-do-mundo-os-oculos-de-solRay-Ban-Aviator-Classic-foram-originalmente-criados-aos-pilotos-americanos-em-1937.Os-oculos-de-sol-Aviator-Classic-sao-um-modelo-atempor",
+            "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/ray-ban-aviador.jpg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 0,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+            "description": "Shipping service used by the store.",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 10.6099999999999994315658113919198513031005859375
+        }
+    ],
+    "payer": {
+        "name": "Sandro",
+        "surname": "Denovo",
+        "email": "schuttsandro@outlook.com",
+        "phone": {
+            "number": "(15) 99817-7365"
+        },
+        "address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103 \/ Itapetininga SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB",
+        "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_Q3CNgkW6Up6VB&order_id=288&redirect&_wpnonce=a873106982",
+        "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+            "apartment": "",
+            "city_name": "Itapetininga",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "141822629",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "18207-780",
+            "street_name": "Avenida Dr José Lembo, 103",
+            "city_name": "Itapetininga",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "schuttsandro@outlook.com",
+            "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-13-2022 @ 14:39:05 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_Q3CNgkW6Up6VB&order_id=288&redirect&_wpnonce=a873106982",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:39:05.544-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-288",
+        "id": "141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "217",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Atualmente-um-dos-modelos-de-oculos-de-sol-mais-iconicos-do-mundo-os-oculos-de-solRay-Ban-Aviator-Classic-foram-originalmente-criados-aos-pilotos-americanos-em-1937.Os-oculos-de-sol-Aviator-Classic-sao-um-modelo-atempor",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/ray-ban-aviador.jpg",
+                "title": "Ray-Ban Aviator Classic x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "schuttsandro@outlook.com",
+                "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "schuttsandro@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Denovo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-13-2022 @ 14:39:05 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/wordpress\/cart\/?cancel_order=true&order=wc_order_Q3CNgkW6Up6VB&order_id=288&redirect&_wpnonce=a873106982",
+            "pending": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB",
+            "success": "http:\/\/localhost\/wordpress\/checkout\/order-received\/288\/?key=wc_order_Q3CNgkW6Up6VB"
+        },
+        "binary_mode": false,
+        "client_id": "8055928559624135",
+        "collector_id": 141822629,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-13T10:39:05.544-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-288",
+        "id": "141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "217",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "p-Atualmente-um-dos-modelos-de-oculos-de-sol-mais-iconicos-do-mundo-os-oculos-de-solRay-Ban-Aviator-Classic-foram-originalmente-criados-aos-pilotos-americanos-em-1937.Os-oculos-de-sol-Aviator-Classic-sao-um-modelo-atempor",
+                "picture_url": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/06\/ray-ban-aviador.jpg",
+                "title": "Ray-Ban Aviator Classic x 1",
+                "quantity": 1,
+                "unit_price": 0
+            },
+            {
+                "id": "",
+                "category_id": "fashion",
+                "currency_id": "BRL",
+                "description": "Shipping service used by the store.",
+                "title": "Correios Sedex (Melhor Envio) (1 a 2 dias úteis)",
+                "quantity": 1,
+                "unit_price": 10.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "yes",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Itapetininga",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Avenida Dr José Lembo, 103",
+                "zip_code": "18207-780"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "141822629",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "http:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "schuttsandro@outlook.com",
+                "user_registration_date": "2022-06-13T14:17:43.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(15) 99817-7365"
+            },
+            "address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null
+            },
+            "email": "schuttsandro@outlook.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Sandro",
+            "surname": "Denovo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=141822629-5a0f8467-055f-420f-8f29-698aeb69fca8",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "18207-780",
+                "street_name": "Avenida Dr José Lembo, 103  Itapetininga SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Itapetininga",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
