@@ -49,5 +49,44 @@ A Storefront child theme designed for small WooCommerce stores / boutiques. Bout
 5 - Você deve ser notificado sobre seu pedido em todas as etapas.
 
 <br>
-# Screens
+<h2>Screens</h2>
 
+<h4>Home</h4>
+
+[![home.png](https://i.postimg.cc/YSNFmhyr/home.png)](https://postimg.cc/CZ153LgX)
+
+<h4>Product</h4>
+
+[![product.png](https://i.postimg.cc/NFF2VbGF/product.png)](https://postimg.cc/m1xr1YHW)
+
+<h4>Cart</h4>
+
+[![cart.png](https://i.postimg.cc/h429rQ4h/cart.png)](https://postimg.cc/9zqRXM7j)
+
+<h4>Checkout</h4>
+
+[![checkout.png](https://i.postimg.cc/YqjQy2jR/checkout.png)](https://postimg.cc/YhK4vH6L)
+
+<h4>Account</h4>
+
+[![account.png](https://i.postimg.cc/4y2VNq2p/account.png)](https://postimg.cc/bSbsmChv)
+
+<h4>Orders</h4>
+
+[![my-orders.png](https://i.postimg.cc/fLw97D6x/my-orders.png)](https://postimg.cc/f3ryDnWL)
+
+<h4>MP checkout</h4>
+
+[![checkout-mercado-pago.png](https://i.postimg.cc/3RnDnzTz/checkout-mercado-pago.png)](https://postimg.cc/gXLJ0SrK)
+
+<h4>MP pagamento</h4>
+
+[![pagamento-boleto-mp.png](https://i.postimg.cc/QMZ5tpmY/pagamento-boleto-mp.png)](https://postimg.cc/tsD7vnLF)
+
+<h4>Mail client</h4>
+
+[![email-site-regular-order.png](https://i.postimg.cc/Z5dp4f8y/email-site-regular-order.png)](https://postimg.cc/4YXm1QFJ)
+
+<h4>Mail vendor</h4>
+
+[![vendor-order-recieved.png](https://i.postimg.cc/T1s5Xmh9/vendor-order-recieved.png)](https://postimg.cc/wRhjX1Xy)
